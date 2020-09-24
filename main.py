@@ -1,11 +1,14 @@
-'''
+import random
+import os
+
+os.system("")
+
+print('''\x1B[92;40m
 incremental raft game
 take over the world, all from a shipwreck
 By buckler, devepcoder, electronicsboy & highfire1
-'''
-
-import random
-
+--------------------------------------------------\x1B[0m \n \n''')
+print("Health : \x1B[31;40m♥♥♥♥♥♥♥♥♥♥\x1B[0m")
 print("you open your eyes")
 print("you are on a lifeboat")
 print("you can see nothing but water around you")
@@ -28,3 +31,4 @@ def fish():
     print("you cast your rod")
     catch = random.choice(list(fishes.values))
     print("You caught a " + catch)
+
